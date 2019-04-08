@@ -53,6 +53,7 @@ class working:
             filer.write(re.sub("[\(\[].*?[\)\]]", "", i))
 
         print("information fetched")
+        file.close()
         os.remove("info.txt")
 
     def short(self):
@@ -77,6 +78,7 @@ class working:
          for i in filesr_sum:
               filer_sum.write(re.sub("[\(\[].*?[\)\]]", "", i))
          print("summary created")
+         filer_sum.close()
          os.remove("sum.txt")
 
 def main():
