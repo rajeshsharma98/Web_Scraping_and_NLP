@@ -11,7 +11,7 @@ Information is scraped out from the web using requests and beautifulSoup librari
 
 ## Files
 scrap.py- used to scrap out the information from the web of the input  [any noun is preffered] given by the user.
-          if giving input is given regarding any place, do write state of that place for perfect results. example: Mandi Himachal Pradesh  
+          if input is given regarding any place, do write state of that place for perfect results. example: Mandi Himachal Pradesh  
   
 summary.py- creates a summary of the information that is scraped out from the web.
   
